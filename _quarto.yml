@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Learning Azure Monitoring"
+  title: "Learning Azure Networks"
   page-navigation: true
   navbar:
     left:
