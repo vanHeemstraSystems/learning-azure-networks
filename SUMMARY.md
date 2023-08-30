@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Learning Azure Data Integration](README.md)
+* [Learning Azure Application Architecture](README.md)
