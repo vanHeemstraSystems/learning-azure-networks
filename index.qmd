@@ -1,5 +1,5 @@
 ---
-title: "Learning Azure Storage Relational"
+title: "Learning Azure Data Integration"
 ---
 
 This is a Quarto website.
