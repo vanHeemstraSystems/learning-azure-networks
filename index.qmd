@@ -1,5 +1,5 @@
 ---
-title: "Learning Azure Authentication and Authorization"
+title: "Learning Azure Monitoring"
 ---
 
 This is a Quarto website.
