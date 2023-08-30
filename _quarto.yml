@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Learning Azure Data Integration"
+  title: "Learning Azure Application Architecture"
   page-navigation: true
   navbar:
     left:
