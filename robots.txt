@@ -1,1 +1,1 @@
-Sitemap: https://github.com/vanHeemstraSystems/learning-azure-authentication-and-authorization/sitemap.xml
+Sitemap: https://github.com/vanHeemstraSystems/learning-azure-monitoring/sitemap.xml
