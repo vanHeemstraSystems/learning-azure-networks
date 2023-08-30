@@ -1,5 +1,5 @@
 ---
-title: "Learning Azure Application Architecture"
+title: "Learning Azure Authentication and Authorization"
 ---
 
 This is a Quarto website.
