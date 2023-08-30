@@ -1,5 +1,5 @@
 ---
-title: "Learning Azure Data Integration"
+title: "Learning Azure Application Architecture"
 ---
 
 This is a Quarto website.
