@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Learning Azure Application Architecture](README.md)
+* [Learning Azure Authentication and Authorization](README.md)
