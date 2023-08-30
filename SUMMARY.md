@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Learning Azure Storage Relational](README.md)
+* [Learning Azure Data Integration](README.md)
