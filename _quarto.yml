@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Learning Azure Application Architecture"
+  title: "Learning Azure Authentication and Authorization"
   page-navigation: true
   navbar:
     left:
