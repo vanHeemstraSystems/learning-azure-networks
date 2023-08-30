@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Learning Azure Monitoring](README.md)
+* [Learning Azure Networks](README.md)
