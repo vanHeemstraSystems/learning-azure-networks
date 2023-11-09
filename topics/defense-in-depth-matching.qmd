@@ -1,3 +1,21 @@
 ---
 title: "Defense in Depth (Matching)"
+css: ../styles.css
 ---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Defense in Depth (Matching)
+
+![Defense in Depth (Matching).](../images/defense-in-depth-matching.png)
+
+- Azure Information Protection.
+- DDoS Azure Firewall.
+- Conditional Access.
+- Network Security Groups.
+- Microsoft Defender for Cloud SQL.
+- Microsoft Defender for Cloud Storage.
+- Network Micro-segmentation.
+- Host Security.
+- Privileged Security Groups.
+- Container Security.
