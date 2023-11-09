@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/SUMMARY.html</loc>
-    <lastmod>2023-11-09T13:49:50.623Z</lastmod>
+    <lastmod>2023-11-09T13:50:51.499Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/about.html</loc>
-    <lastmod>2023-11-09T13:49:50.183Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/hybrid-identity.html</loc>
-    <lastmod>2023-11-09T13:49:49.703Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/privileged-identity-management.html</loc>
-    <lastmod>2023-11-09T13:49:48.943Z</lastmod>
+    <lastmod>2023-11-09T13:50:51.083Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/identity-protection.html</loc>
-    <lastmod>2023-11-09T13:49:49.463Z</lastmod>
+    <lastmod>2023-11-09T13:50:50.659Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/privileged-identity-management.html</loc>
+    <lastmod>2023-11-09T13:50:49.967Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/defense-in-depth-matching.html</loc>
+    <lastmod>2023-11-09T13:50:50.447Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/index.html</loc>
-    <lastmod>2023-11-09T13:49:49.947Z</lastmod>
+    <lastmod>2023-11-09T13:50:50.875Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics.html</loc>
-    <lastmod>2023-11-09T13:49:50.399Z</lastmod>
+    <lastmod>2023-11-09T13:50:51.287Z</lastmod>
   </url>
 </urlset>
