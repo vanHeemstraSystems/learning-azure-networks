@@ -19,11 +19,8 @@ website:
         - text: "---"
         - topics.qmd        
         - text: "---"
-        - topics/hybrid-identity.qmd
-        - text: "---"       
-        - topics/identity-protection.qmd
-        - text: "---"
-        - topics/privileged-identity-management.qmd        
+        - topics/defense-in-depth-matching.qmd
+       
 format:
   html:
     theme: cosmo
