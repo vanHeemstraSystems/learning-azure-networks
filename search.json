@@ -14,6 +14,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "topics/defense-in-depth-matching.html",
+    "href": "topics/defense-in-depth-matching.html",
+    "title": "Defense in Depth (Matching)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Learning Azure Networks",
