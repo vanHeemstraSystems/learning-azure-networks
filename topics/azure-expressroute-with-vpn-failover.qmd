@@ -1,0 +1,20 @@
+---
+title: "Azure ExpressRoute with VPN Failover"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure ExpressRoute with VPN Failover
+This option combines the previous two, using Azure ExpressRoute in normal condition, but failing over to a VPN connection if there is a loss of connectivity in the ExpressRoute circuit.
+
+![Azure ExpressRoute with VPN Failover.](../images/azure-expressroute-with-vpn-failover.png)
+
+Benefits:
+
+- High availability if the ExpressRoute circuit fails, although the fallback connection is on a lower bandwidth network.
+
+Challenges:
+
+- Complex to configure. You need to set up both a VPN connection and an ExpressRoute circuit.
+- Requires redundant hardware (VPN appliances), and a redundant Azure VPN Gateway connection for which you pay charges.
