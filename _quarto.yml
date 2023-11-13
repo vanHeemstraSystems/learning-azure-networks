@@ -20,6 +20,8 @@ website:
         - topics.qmd        
         - text: "---"
         - topics/defense-in-depth-matching.qmd
+        - text: "---"
+        - topics/gather-network-requirements.qmd        
        
 format:
   html:
