@@ -1,1 +1,23 @@
+---
+title: "Azure ExpressRoute and ExpressRoute Direct connection"
+css: ../styles.css
+---
 
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure ExpressRoute and ExpressRoute Direct connection
+ExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.
+
+![Azure ExpressRoute and ExpressRoute Direct connection.](../images/azure-expressroute-and-expressroute-direct-connection.png)
+
+Benefits:
+
+- Up to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.
+- Global reach - traffic over private connection.
+- Up to 99.95% availability SLA across the entire connection.
+
+Challenges:
+
+- Can be complex to set up.
+- Working with a third-party connectivity provider.
+- Requires high-bandwidth routers on-premises.
