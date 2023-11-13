@@ -14,11 +14,11 @@
     "text": "About this site"
   },
   {
-    "objectID": "topics/vpn-connection.html",
-    "href": "topics/vpn-connection.html",
-    "title": "VPN Connection",
+    "objectID": "topics/azure-expressroute-with-vpn-failover.html",
+    "href": "topics/azure-expressroute-with-vpn-failover.html",
+    "title": "Azure ExpressRoute with VPN Failover",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nVPN Connection\nA VPN Gateway is a type of Virtul Network Gateway that sends encrypted traffic between an Azure Virtual Network and an On-Premises location.\n\n\n\nVPN Connection.\n\n\nBenefits:\n\nSimple to configure.\nUp to 10 Gbps depending on the VPN Gateway SKU.\n\nChallenges:\n\nRequires an On-Premises VPN device.\nThe SLA only covers the VPN Gateway, and not your network connection to the Gateway or throughput."
+    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute with VPN Failover\nThis option combines the previous two, using Azure ExpressRoute in normal condition, but failing over to a VPN connection if there is a loss of connectivity in the ExpressRoute circuit.\n\n\n\nAzure ExpressRoute with VPN Failover.\n\n\nBenefits:\n\nHigh availability if the ExpressRoute circuit fails, although the fallback connection is on a lower bandwidth network.\n\nChallenges:\n\nComplex to configure. You need to set up both a VPN connection and an ExpressRoute circuit.\nRequires redundant hardware (VPN appliances), and a redundant Azure VPN Gateway connection for which you pay charges."
   },
   {
     "objectID": "topics/defense-in-depth-matching.html",
@@ -33,6 +33,13 @@
     "title": "Gather Network Requirements",
     "section": "",
     "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/vpn-connection.html",
+    "href": "topics/vpn-connection.html",
+    "title": "VPN Connection",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nVPN Connection\nA VPN Gateway is a type of Virtul Network Gateway that sends encrypted traffic between an Azure Virtual Network and an On-Premises location.\n\n\n\nVPN Connection.\n\n\nBenefits:\n\nSimple to configure.\nUp to 10 Gbps depending on the VPN Gateway SKU.\n\nChallenges:\n\nRequires an On-Premises VPN device.\nThe SLA only covers the VPN Gateway, and not your network connection to the Gateway or throughput."
   },
   {
     "objectID": "index.html",

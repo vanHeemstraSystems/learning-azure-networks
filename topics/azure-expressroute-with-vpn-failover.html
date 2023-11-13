@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Networks – expressroute-with-vpn-failover</title>
+<title>Learning Azure Networks - Azure ExpressRoute with VPN Failover</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Azure ExpressRoute with VPN Failover</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -151,15 +151,56 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#azure-expressroute-with-vpn-failover" id="toc-azure-expressroute-with-vpn-failover" class="nav-link active" data-scroll-target="#azure-expressroute-with-vpn-failover">Azure ExpressRoute with VPN Failover</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Azure ExpressRoute with VPN Failover</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html">Network Infrastructure</a></p>
+<section id="azure-expressroute-with-vpn-failover" class="level1">
+<h1>Azure ExpressRoute with VPN Failover</h1>
+<p>This option combines the previous two, using Azure ExpressRoute in normal condition, but failing over to a VPN connection if there is a loss of connectivity in the ExpressRoute circuit.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/azure-expressroute-with-vpn-failover.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Azure ExpressRoute with VPN Failover.</figcaption>
+</figure>
+</div>
+<p>Benefits:</p>
+<ul>
+<li>High availability if the ExpressRoute circuit fails, although the fallback connection is on a lower bandwidth network.</li>
+</ul>
+<p>Challenges:</p>
+<ul>
+<li>Complex to configure. You need to set up both a VPN connection and an ExpressRoute circuit.</li>
+<li>Requires redundant hardware (VPN appliances), and a redundant Azure VPN Gateway connection for which you pay charges.</li>
+</ul>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
