@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Networks</title>
+<title>Learning Azure Networks - Azure ExpressRoute and ExpressRoute Direct connection</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Learning Azure Networks</span>
     </a>
   </div>
@@ -82,15 +82,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./topics.html" rel="" target="">
+    <a class="nav-link active" href="../topics.html" rel="" target="" aria-current="page">
  <span class="menu-text">Topics</span></a>
   </li>  
 </ul>
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Learning Azure Networks</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/azure-expressroute-and-expressroute-direct-connection.html">Azure ExpressRoute and ExpressRoute Direct connection</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -119,42 +119,42 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Topics</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics/defense-in-depth-matching.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/defense-in-depth-matching.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Defense in Depth (Matching)</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics/gather-network-requirements.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/gather-network-requirements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gather Network Requirements</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics/vpn-connection.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/vpn-connection.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">VPN Connection</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics/azure-expressroute-and-expressroute-direct-connection.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/azure-expressroute-and-expressroute-direct-connection.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Azure ExpressRoute and ExpressRoute Direct connection</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics/azure-expressroute-with-vpn-failover.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/azure-expressroute-with-vpn-failover.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Azure ExpressRoute with VPN Failover</span></a>
   </div>
 </li>
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#topics" id="toc-topics" class="nav-link active" data-scroll-target="#topics">Topics</a></li>
+  <li><a href="#azure-expressroute-and-expressroute-direct-connection" id="toc-azure-expressroute-and-expressroute-direct-connection" class="nav-link active" data-scroll-target="#azure-expressroute-and-expressroute-direct-connection">Azure ExpressRoute and ExpressRoute Direct connection</a></li>
   </ul>
 </nav>
     </div>
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning Azure Networks</h1>
+<h1 class="title">Azure ExpressRoute and ExpressRoute Direct connection</h1>
 </div>
 
 
@@ -192,11 +192,28 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<section id="topics" class="level1">
-<h1>Topics</h1>
-<p>See <a href="topics.html">Topics</a></p>
+<p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html">Network Infrastructure</a></p>
+<section id="azure-expressroute-and-expressroute-direct-connection" class="level1">
+<h1>Azure ExpressRoute and ExpressRoute Direct connection</h1>
+<p>ExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/azure-expressroute-and-expressroute-direct-connection.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Azure ExpressRoute and ExpressRoute Direct connection.</figcaption>
+</figure>
+</div>
+<p>Benefits:</p>
+<ul>
+<li>Up to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.</li>
+<li>Global reach - traffic over private connection.</li>
+<li>Up to 99.95% availability SLA across the entire connection.</li>
+</ul>
+<p>Challenges:</p>
+<ul>
+<li>Can be complex to set up.</li>
+<li>Working with a third-party connectivity provider.</li>
+<li>Requires high-bandwidth routers on-premises.</li>
+</ul>
 
 
 </section>

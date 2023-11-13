@@ -21,11 +21,11 @@
     "text": "Source: Network Infrastructure\n\nAzure ExpressRoute with VPN Failover\nThis option combines the previous two, using Azure ExpressRoute in normal condition, but failing over to a VPN connection if there is a loss of connectivity in the ExpressRoute circuit.\n\n\n\nAzure ExpressRoute with VPN Failover.\n\n\nBenefits:\n\nHigh availability if the ExpressRoute circuit fails, although the fallback connection is on a lower bandwidth network.\n\nChallenges:\n\nComplex to configure. You need to set up both a VPN connection and an ExpressRoute circuit.\nRequires redundant hardware (VPN appliances), and a redundant Azure VPN Gateway connection for which you pay charges."
   },
   {
-    "objectID": "topics/defense-in-depth-matching.html",
-    "href": "topics/defense-in-depth-matching.html",
-    "title": "Defense in Depth (Matching)",
+    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
+    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
   },
   {
     "objectID": "topics/gather-network-requirements.html",
@@ -33,6 +33,13 @@
     "title": "Gather Network Requirements",
     "section": "",
     "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/defense-in-depth-matching.html",
+    "href": "topics/defense-in-depth-matching.html",
+    "title": "Defense in Depth (Matching)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
   },
   {
     "objectID": "topics/vpn-connection.html",
