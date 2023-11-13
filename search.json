@@ -21,6 +21,13 @@
     "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
   },
   {
+    "objectID": "topics/gather-network-requirements.html",
+    "href": "topics/gather-network-requirements.html",
+    "title": "Gather Network Requirements",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Learning Azure Networks",
