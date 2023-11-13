@@ -24,6 +24,8 @@ website:
         - topics/gather-network-requirements.qmd        
         - text: "---"
         - topics/vpn-connection.qmd
+        - text: "---"
+        - topics/azure-expressroute-and-expressroute-direct-connection.mqd
        
 format:
   html:
