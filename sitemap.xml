@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/SUMMARY.html</loc>
-    <lastmod>2023-11-13T12:38:55.989Z</lastmod>
+    <lastmod>2023-11-13T13:31:17.337Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/about.html</loc>
-    <lastmod>2023-11-13T12:38:55.505Z</lastmod>
+    <lastmod>2023-11-13T13:31:16.869Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/vpn-connection.html</loc>
-    <lastmod>2023-11-13T12:38:55.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/gather-network-requirements.html</loc>
-    <lastmod>2023-11-13T12:38:54.201Z</lastmod>
+    <lastmod>2023-11-13T13:31:16.425Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/defense-in-depth-matching.html</loc>
-    <lastmod>2023-11-13T12:38:54.765Z</lastmod>
+    <lastmod>2023-11-13T13:31:15.929Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/gather-network-requirements.html</loc>
+    <lastmod>2023-11-13T13:31:15.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/expressroute-with-vpn-failover.html</loc>
+    <lastmod>2023-11-13T13:31:16.173Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/index.html</loc>
-    <lastmod>2023-11-13T12:38:55.273Z</lastmod>
+    <lastmod>2023-11-13T13:31:16.645Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics.html</loc>
-    <lastmod>2023-11-13T12:38:55.753Z</lastmod>
+    <lastmod>2023-11-13T13:31:17.089Z</lastmod>
   </url>
 </urlset>
