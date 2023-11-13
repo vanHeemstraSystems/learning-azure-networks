@@ -1,1 +1,20 @@
+---
+title: "Gather Network Requirements"
+css: ../styles.css
+---
 
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Gather network Requirements
+Plan Virtual Networks and Subnets - Design Considerations.
+
+![Network Requirements.](../images/gather-network-requirements.png)
+
+- Naming.
+- Regions.
+- Subscriptions.
+- Segmentations.
+- Security.
+- Connectivity.
+- Permissions.
+- Policy.
