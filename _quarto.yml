@@ -22,6 +22,8 @@ website:
         - topics/defense-in-depth-matching.qmd
         - text: "---"
         - topics/gather-network-requirements.qmd        
+        - text: "---"
+        - topics/vpn-connection.qmd
        
 format:
   html:
