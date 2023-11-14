@@ -1,0 +1,11 @@
+---
+title: "Design Azure Virtual Networks"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Design Azure Virtual Networks
+Azure Virtual Network is the fundamental building block for your private network in Azure. A virtual network is a virtual, isolated portion of Azure public network. Use VNets for communication between Azure resources, the internet, and on-premises networks.
+
+![Design Azure Virtual Networks.](../images/design-azure-virtual-networks.png)
