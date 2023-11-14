@@ -32,6 +32,8 @@ website:
         - topics/azure-virtual-wan.qmd
         - text: "---"
         - topics/global-transit-network-with-azure-virtual-wan.qmd
+        - text: "---"
+        - topics/design-azure-virtual-networks.qmd
         
 format:
   html:
