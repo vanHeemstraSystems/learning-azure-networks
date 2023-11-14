@@ -28,6 +28,13 @@
     "text": "Source: Network Infrastructure\n\nDesign Azure Virtual Networks\nAzure Virtual Network is the fundamental building block for your private network in Azure. A virtual network is a virtual, isolated portion of Azure public network. Use VNets for communication between Azure resources, the internet, and on-premises networks.\n\n\n\nDesign Azure Virtual Networks."
   },
   {
+    "objectID": "topics/design-network-topology.html",
+    "href": "topics/design-network-topology.html",
+    "title": "Design Network Topology",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDesign Network Topology\nSegmentation is a model in which you take your networking footprint and create software defined perimeters using tools available in Microsoft Azure.\n\n\n\nDesign Network Topology.\n\n\nPattern 1: Single Virtual Network\nPattern 2: Multiple Virtual networks with peering in between them.\nPattern 3: Multiple Virtual Networks in a Hub & Spoke model."
+  },
+  {
     "objectID": "topics/defense-in-depth-matching.html",
     "href": "topics/defense-in-depth-matching.html",
     "title": "Defense in Depth (Matching)",
