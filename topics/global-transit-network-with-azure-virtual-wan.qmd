@@ -8,7 +8,7 @@ Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-Desi
 # Global Transit with Azure Virtual WAN
 Global transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.
 
-![Global Transit with Azure Virtual WAN.](../images/global-transit-with-azure-virtual-wan.png)
+![Global Transit with Azure Virtual WAN.](../images/global-transit-network-with-azure-virtual-wan.png)
 
 Azure Virtual WAN supports the following global transit connectivity paths:
 
