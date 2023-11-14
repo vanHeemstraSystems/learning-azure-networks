@@ -30,6 +30,8 @@ website:
         - topics/azure-expressroute-with-vpn-failover.qmd
         - text: "---"
         - topics/azure-virtual-wan.qmd
+        - text: "---"
+        - topics/global-transit-network-with-azure-virtual-wan.qmd
         
 format:
   html:
