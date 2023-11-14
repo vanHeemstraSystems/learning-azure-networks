@@ -35,18 +35,11 @@
     "text": "Source: Network Infrastructure\n\nDesign Network Topology\nSegmentation is a model in which you take your networking footprint and create software defined perimeters using tools available in Microsoft Azure.\n\n\n\nDesign Network Topology.\n\n\nPattern 1: Single Virtual Network\nPattern 2: Multiple Virtual networks with peering in between them.\nPattern 3: Multiple Virtual Networks in a Hub & Spoke model."
   },
   {
-    "objectID": "topics/defense-in-depth-matching.html",
-    "href": "topics/defense-in-depth-matching.html",
-    "title": "Defense in Depth (Matching)",
+    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
-  },
-  {
-    "objectID": "topics/gather-network-requirements.html",
-    "href": "topics/gather-network-requirements.html",
-    "title": "Gather Network Requirements",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
   },
   {
     "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
@@ -56,11 +49,25 @@
     "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
   },
   {
-    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
+    "objectID": "topics/gather-network-requirements.html",
+    "href": "topics/gather-network-requirements.html",
+    "title": "Gather Network Requirements",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
+    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/defense-in-depth-matching.html",
+    "href": "topics/defense-in-depth-matching.html",
+    "title": "Defense in Depth (Matching)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
+  },
+  {
+    "objectID": "topics/design-outbound-connectivity.html",
+    "href": "topics/design-outbound-connectivity.html",
+    "title": "Design Outbound Connectivity",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDesign Outbound Connectivity\nVirtual Network NAT (Network Address Translation) simplifies outbound-only Internet connectivity for virtual networks. When configured on a subnet, all outbound connectivity uses your specified static public IP addresses. NAT is fully managed and highly resilient.\n\n\n\nDesign Outbound Connectivity.\n\n\nOptions include:\n\nAzure Firewall.\nLoad Balancer.\nVirtual Network NAT Gateway.\n\nChoose Virtual Network NAT Gateway when:\n\nYou need on-demand outbound to Internet connectivity without pre-allocation.\nYou need one or more static public IP addresses for scale.\nYou need configurable idle timeout.\nYou need TCP reset for unrecognized connections."
   },
   {
     "objectID": "topics/vpn-connection.html",
