@@ -1,0 +1,23 @@
+---
+title: "Global Transit with Azure Virtual WAN"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Global Transit with Azure Virtual WAN
+Global transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.
+
+![Global Transit with Azure Virtual WAN.](../images/global-transit-with-azure-virtual-wan.png)
+
+Azure Virtual WAN supports the following global transit connectivity paths:
+
+- Branch-to-VNet (a).
+- Branch-to-Branch (b).
+-  - ExpressRoute Global Reach and Virtual WAN.
+- Remote User-to-VNet (c).
+- Remote User-to-Branch (d).
+- VNet-to-VNet (e).
+- Branch-to-Hub-Hub-to-Branch (f).
+- Branch-to-Hub-Hub-to-VNet (g).
+- VNet-to-Hub-Hub-to-VNet (h).
