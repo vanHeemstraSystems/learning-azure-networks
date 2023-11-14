@@ -21,18 +21,11 @@
     "text": "Source: Network Infrastructure\n\nAzure ExpressRoute with VPN Failover\nThis option combines the previous two, using Azure ExpressRoute in normal condition, but failing over to a VPN connection if there is a loss of connectivity in the ExpressRoute circuit.\n\n\n\nAzure ExpressRoute with VPN Failover.\n\n\nBenefits:\n\nHigh availability if the ExpressRoute circuit fails, although the fallback connection is on a lower bandwidth network.\n\nChallenges:\n\nComplex to configure. You need to set up both a VPN connection and an ExpressRoute circuit.\nRequires redundant hardware (VPN appliances), and a redundant Azure VPN Gateway connection for which you pay charges."
   },
   {
-    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
+    "objectID": "topics/vpn-connection.html",
+    "href": "topics/vpn-connection.html",
+    "title": "VPN Connection",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
-  },
-  {
-    "objectID": "topics/gather-network-requirements.html",
-    "href": "topics/gather-network-requirements.html",
-    "title": "Gather Network Requirements",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+    "text": "Source: Network Infrastructure\n\nVPN Connection\nA VPN Gateway is a type of Virtul Network Gateway that sends encrypted traffic between an Azure Virtual Network and an On-Premises location.\n\n\n\nVPN Connection.\n\n\nBenefits:\n\nSimple to configure.\nUp to 10 Gbps depending on the VPN Gateway SKU.\n\nChallenges:\n\nRequires an On-Premises VPN device.\nThe SLA only covers the VPN Gateway, and not your network connection to the Gateway or throughput."
   },
   {
     "objectID": "topics/defense-in-depth-matching.html",
@@ -42,11 +35,25 @@
     "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
   },
   {
-    "objectID": "topics/vpn-connection.html",
-    "href": "topics/vpn-connection.html",
-    "title": "VPN Connection",
+    "objectID": "topics/gather-network-requirements.html",
+    "href": "topics/gather-network-requirements.html",
+    "title": "Gather Network Requirements",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nVPN Connection\nA VPN Gateway is a type of Virtul Network Gateway that sends encrypted traffic between an Azure Virtual Network and an On-Premises location.\n\n\n\nVPN Connection.\n\n\nBenefits:\n\nSimple to configure.\nUp to 10 Gbps depending on the VPN Gateway SKU.\n\nChallenges:\n\nRequires an On-Premises VPN device.\nThe SLA only covers the VPN Gateway, and not your network connection to the Gateway or throughput."
+    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
+  },
+  {
+    "objectID": "topics/azure-virtual-wan.html",
+    "href": "topics/azure-virtual-wan.html",
+    "title": "Azure Virtual WAN",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Virtual WAN\nAzure Virtual WAN is a networking service that brings many networking, security, and routing functionalities together to provide a single operational interface.\n\n\n\nAzure Virtual WAN.\n\n\n\nFully managed VWAN service.\nCost savings by using a managed service and removing the necessity of network virtual appliance.\nImproved security by introducing centrally managed secured Hubs with Azure Firewall and VWAN.\nSeparation of Concerns between central IT (SecOps, InfraOps) and workloads (DevOps)."
   },
   {
     "objectID": "index.html",
