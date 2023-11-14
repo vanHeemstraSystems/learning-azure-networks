@@ -36,6 +36,8 @@ website:
         - topics/design-azure-virtual-networks.qmd
         - text: "---"
         - topics/design-network-topology.qmd
+        - text: "---"
+        - topics/design-outbound-connectivity.qmd
         
 format:
   html:
