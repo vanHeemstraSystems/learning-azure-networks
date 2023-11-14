@@ -1,0 +1,24 @@
+---
+title: "Design Outbound Connectivity"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Design Outbound Connectivity
+Virtual Network NAT (Network Address Translation) simplifies outbound-only Internet connectivity for virtual networks. When configured on a subnet, all outbound connectivity uses your specified static public IP addresses. NAT is fully managed and highly resilient.
+
+![Design Outbound Connectivity.](../images/design-outbound-connectivity.png)
+
+Options include:
+
+- Azure Firewall.
+- Load Balancer.
+- Virtual Network NAT Gateway.
+
+Choose Virtual Network NAT Gateway when:
+
+- You need on-demand outbound to Internet connectivity without pre-allocation.
+- You need one or more static public IP addresses for scale.
+- You need configurable idle timeout.
+- You need TCP reset for unrecognized connections.
