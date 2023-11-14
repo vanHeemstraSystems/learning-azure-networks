@@ -1,1 +1,17 @@
+---
+title: "Design Network Topology"
+css: ../styles.css
+---
 
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Design Network Topology
+Segmentation is a model in which you take your networking footprint and create software defined perimeters using tools available in Microsoft Azure.
+
+![Design Network Topology.](../images/design-network-topology.png)
+
+**Pattern 1**: Single Virtual Network
+
+**Pattern 2**: Multiple Virtual networks with peering in between them.
+
+**Pattern 3**: Multiple Virtual Networks in a Hub & Spoke model.
