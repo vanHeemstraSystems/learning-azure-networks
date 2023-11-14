@@ -1,0 +1,16 @@
+---
+title: "Azure Virtual WAN"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Virtual WAN
+Azure Virtual WAN is a networking service that brings many networking, security, and routing functionalities together to provide a single operational interface.
+
+![Azure Virtual WAN.](../images/azure-virtual-wan.png)
+
+- Fully managed VWAN service.
+- Cost savings by using a managed service and removing the necessity of network virtual appliance.
+- Improved security by introducing centrally managed secured Hubs with Azure Firewall and VWAN.
+- Separation of Concerns between central IT (SecOps, InfraOps) and workloads (DevOps).
