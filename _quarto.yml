@@ -28,6 +28,8 @@ website:
         - topics/azure-expressroute-and-expressroute-direct-connection.qmd
         - text: "---"
         - topics/azure-expressroute-with-vpn-failover.qmd
+        - text: "---"
+        - topics/azure-virtual-wan.qmd
         
 format:
   html:
