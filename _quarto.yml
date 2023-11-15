@@ -64,6 +64,8 @@ website:
         - topics/azure-web-application-firewall.qmd 
         - text: "---"
         - topics/azure-distributed-denial-of-service-protection-standard.qmd
+        - text: "---"
+        - topics/azure-bastion.qmd
         
 format:
   html:
