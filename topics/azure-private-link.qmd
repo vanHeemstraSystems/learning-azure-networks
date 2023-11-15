@@ -6,7 +6,7 @@ css: ../styles.css
 Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
 
 # Azure Private Link
-Azure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/pertnet services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.
+Azure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.
 
 ![Azure Private Link.](../images/azure-private-link.png)
 
