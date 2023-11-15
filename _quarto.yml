@@ -54,6 +54,8 @@ website:
         - topics/azure-traffic-manager.qmd
         - text: "---"
         - topics/azure-service-endpoints.qmd
+        - text: "---"
+        - topics/azure-private-link.qmd
         
 format:
   html:
