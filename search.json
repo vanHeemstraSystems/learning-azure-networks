@@ -84,11 +84,11 @@
     "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
   },
   {
-    "objectID": "topics/distributed-denial-of-service-protection-standard.html",
-    "href": "topics/distributed-denial-of-service-protection-standard.html",
+    "objectID": "topics/azure-distributed-denial-of-service-protection-standard.html",
+    "href": "topics/azure-distributed-denial-of-service-protection-standard.html",
     "title": "Azure Distributed Denial of Service (DDoS) Protection Standard",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Distributed Denial of Service (DDoS) Protection Standard\nAzure DDoS Standrad Protection provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.\n\n\n\nAzure Distributed Denial of Service (DDoS) Protection Standard.\n\n\nUse DDoS Protection Standard:\n\nAlways-on traffic monitoring.\nAdaptive tuning.\nMulti-layered protection.\nMitigation scale.\nAttack analytics and metrics.\nAttack alerting.\nDDoS rapid response."
+    "text": "Source: Network Infrastructure\n\nAzure Distributed Denial of Service (DDoS) Protection Standard\nAzure DDoS Standard Protection provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.\n\n\n\nAzure Distributed Denial of Service (DDoS) Protection Standard.\n\n\nUse DDoS Protection Standard:\n\nAlways-on traffic monitoring.\nAdaptive tuning.\nMulti-layered protection.\nMitigation scale.\nAttack analytics and metrics.\nAttack alerting.\nDDoS rapid response."
   },
   {
     "objectID": "topics/gather-network-requirements.html",
