@@ -48,6 +48,8 @@ website:
         - topics/azure-application-gateway.qmd
         - text: "---"
         - topics/azure-content-delivery-network.qmd
+        - text: "---"
+        - topics/azure-front-door-service.qmd
         
 format:
   html:
