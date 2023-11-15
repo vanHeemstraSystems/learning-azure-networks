@@ -68,6 +68,8 @@ website:
         - topics/azure-bastion.qmd
         - text: "---"
         - topics/azure-just-in-time-network-access.qmd
+        - text: "---"
+        - topics/design-a-network-infrastructure-solution.qmd
         
 format:
   html:
