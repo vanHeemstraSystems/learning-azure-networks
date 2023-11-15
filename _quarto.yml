@@ -40,6 +40,8 @@ website:
         - topics/design-outbound-connectivity.qmd
         - text: "---"
         - topics/choosing-a-load-balancer-solution.qmd
+        - text: "---"
+        - topics/load-balancing-options.qmd
         
 format:
   html:
