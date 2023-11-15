@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Networks - Azure Private Link</title>
+<title>Learning Azure Networks - Azure Network Security Groups (NSG)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/azure-private-link.html">Azure Private Link</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/azure-network-security-groups.html">Azure Network Security Groups (NSG)</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -252,14 +252,14 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../topics/azure-private-link.html" class="sidebar-item-text sidebar-link active">
+  <a href="../topics/azure-private-link.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Azure Private Link</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../topics/azure-network-security-groups.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/azure-network-security-groups.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Azure Network Security Groups (NSG)</span></a>
   </div>
 </li>
@@ -273,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#azure-private-link" id="toc-azure-private-link" class="nav-link active" data-scroll-target="#azure-private-link">Azure Private Link</a></li>
+  <li><a href="#azure-network-security-groups-nsg" id="toc-azure-network-security-groups-nsg" class="nav-link active" data-scroll-target="#azure-network-security-groups-nsg">Azure Network Security Groups (NSG)</a></li>
   </ul>
 </nav>
     </div>
@@ -282,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Azure Private Link</h1>
+<h1 class="title">Azure Network Security Groups (NSG)</h1>
 </div>
 
 
@@ -298,20 +298,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html">Network Infrastructure</a></p>
-<section id="azure-private-link" class="level1">
-<h1>Azure Private Link</h1>
-<p>Azure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/azure-private-link.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Azure Private Link.</figcaption>
-</figure>
-</div>
-<p>Recommend private link or private endpoints when:</p>
+<section id="azure-network-security-groups-nsg" class="level1">
+<h1>Azure Network Security Groups (NSG)</h1>
 <ul>
-<li>You need private connectivity to services on Azure.</li>
-<li>You need integration with on-premises and peered networks.</li>
-<li>You need traffic to remain on Microsoft network, with no public Internet access.</li>
+<li>You can filter network traffic to and from Azure resources in an Azure virtual network with a Network Security Group.</li>
+<li>A Network Security Group (NSG) contains a list of Access Control List (ACL) rules that allow or deny network traffic to subnets, NICs, or both.</li>
+<li>NSGs contain two sets of rules: inbound and outbound. The priority for a rule must be unique within each set.</li>
 </ul>
 
 
