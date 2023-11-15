@@ -50,6 +50,8 @@ website:
         - topics/azure-content-delivery-network.qmd
         - text: "---"
         - topics/azure-front-door-service.qmd
+        - text: "---"
+        - topics/azure-traffic-manager.qmd
         
 format:
   html:
