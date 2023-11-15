@@ -63,6 +63,13 @@
     "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
   },
   {
+    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "title": "Global Transit with Azure Virtual WAN",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
+  },
+  {
     "objectID": "topics/gather-network-requirements.html",
     "href": "topics/gather-network-requirements.html",
     "title": "Gather Network Requirements",
@@ -70,11 +77,11 @@
     "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
   },
   {
-    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "title": "Global Transit with Azure Virtual WAN",
+    "objectID": "topics/azure-front-door-service.html",
+    "href": "topics/azure-front-door-service.html",
+    "title": "Azure Front Door Service",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
+    "text": "Source: Network Infrastructure\n\nAzure Front Door Service\nAzure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic by optimizing for best performance and instant global failover for high availability.\n\n\n\nAzure Front Door Service.\n\n\nChoose Azure Front Door when:\n\nYou need to ensure that requests are sent to the lowest latency backends (low latency).\nYou have primary and secondary backends (priority).\nYou want to distribute traffic using weight coefficients (weighted).\nYou want to ensure requests from the same end user get sent to the same backend (affinity).\nYour traffic is HTTP(s) based and you need WAF and/or CDN integration."
   },
   {
     "objectID": "topics/azure-load-balancer.html",
