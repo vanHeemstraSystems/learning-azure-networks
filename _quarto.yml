@@ -52,6 +52,8 @@ website:
         - topics/azure-front-door-service.qmd
         - text: "---"
         - topics/azure-traffic-manager.qmd
+        - text: "---"
+        - topics/azure-service-endpoints.qmd
         
 format:
   html:
