@@ -77,13 +77,6 @@
     "text": "Source: Network Infrastructure\n\nAzure Private Link\nAzure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.\n\n\n\nAzure Private Link.\n\n\nRecommend private link or private endpoints when:\n\nYou need private connectivity to services on Azure.\nYou need integration with on-premises and peered networks.\nYou need traffic to remain on Microsoft network, with no public Internet access."
   },
   {
-    "objectID": "topics/azure-network-security-groups.html",
-    "href": "topics/azure-network-security-groups.html",
-    "title": "Azure Network Security Groups (NSG)",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Network Security Groups (NSG)\n\nYou can filter network traffic to and from Azure resources in an Azure virtual network with a Network Security Group.\nA Network Security Group (NSG) contains a list of Access Control List (ACL) rules that allow or deny network traffic to subnets, NICs, or both.\nNSGs contain two sets of rules: inbound and outbound. The priority for a rule must be unique within each set."
-  },
-  {
     "objectID": "topics/gather-network-requirements.html",
     "href": "topics/gather-network-requirements.html",
     "title": "Gather Network Requirements",
