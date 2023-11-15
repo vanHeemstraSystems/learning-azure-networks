@@ -10,4 +10,11 @@ Azure Application Gateway is a web traffic load balancer that enables you to man
 
 ![Azure Application Gateway.](../images/azure-application-gateway.png)
 
-- Text.
+When to use Azure Application Gateway
+
+- Layer 7 - HTTP(S) only.
+- Supports WAF-stateful inspection.
+- Traffic routing.
+- SSL/TLS termination.
+- Supports PaaS and Ips.
+- Regional service.
