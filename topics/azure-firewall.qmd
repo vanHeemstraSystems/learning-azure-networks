@@ -1,0 +1,19 @@
+---
+title: "Azure Firewwall"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Firewall
+Azure Firewall is a cloud-native network security service offering high-availability and scalability. Azure Firewall provides inbound protection for non-HTTP/S protocols 9for example, RDP, SSH, FTP), outbound network-level protection for all ports and protocols, and application-level protection for outbound HTTP/S.
+
+
+
+Use Azure Firewall to:
+
+- Protect your network against infiltration.
+- Implement hierarchical firewall policies.
+- Configure spoke-to-spoke connectivity.
+- Monitor incoming and outgoing traffic.
+- If you require multiple firewalls.
