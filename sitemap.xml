@@ -2,98 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/SUMMARY.html</loc>
-    <lastmod>2023-11-15T10:15:23.883Z</lastmod>
+    <lastmod>2023-11-15T10:15:56.951Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/about.html</loc>
-    <lastmod>2023-11-15T10:15:23.415Z</lastmod>
+    <lastmod>2023-11-15T10:15:56.447Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-expressroute-with-vpn-failover.html</loc>
-    <lastmod>2023-11-15T10:15:22.927Z</lastmod>
+    <lastmod>2023-11-15T10:15:55.943Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/choosing-a-load-balancer-solution.html</loc>
-    <lastmod>2023-11-15T10:15:22.419Z</lastmod>
+    <lastmod>2023-11-15T10:15:55.395Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-service-endpoints.html</loc>
-    <lastmod>2023-11-15T10:15:21.875Z</lastmod>
+    <lastmod>2023-11-15T10:15:54.851Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/vpn-connection.html</loc>
-    <lastmod>2023-11-15T10:15:21.363Z</lastmod>
+    <lastmod>2023-11-15T10:15:54.311Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/design-outbound-connectivity.html</loc>
-    <lastmod>2023-11-15T10:15:20.851Z</lastmod>
+    <lastmod>2023-11-15T10:15:53.751Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/load-balancing-options.html</loc>
-    <lastmod>2023-11-15T10:15:20.327Z</lastmod>
+    <lastmod>2023-11-15T10:15:53.175Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-content-delivery-network.html</loc>
-    <lastmod>2023-11-15T10:15:19.807Z</lastmod>
+    <lastmod>2023-11-15T10:15:52.635Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/defense-in-depth-matching.html</loc>
-    <lastmod>2023-11-15T10:15:19.267Z</lastmod>
+    <lastmod>2023-11-15T10:15:52.023Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-private-link.html</loc>
-    <lastmod>2023-11-15T10:15:18.731Z</lastmod>
+    <lastmod>2023-11-15T10:15:51.463Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-network-security-groups.html</loc>
-    <lastmod>2023-11-15T10:15:18.151Z</lastmod>
+    <lastmod>2023-11-15T10:15:50.863Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/gather-network-requirements.html</loc>
-    <lastmod>2023-11-15T10:15:17.595Z</lastmod>
+    <lastmod>2023-11-15T10:15:50.287Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/global-transit-network-with-azure-virtual-wan.html</loc>
-    <lastmod>2023-11-15T10:15:18.455Z</lastmod>
+    <lastmod>2023-11-15T10:15:51.167Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-front-door-service.html</loc>
-    <lastmod>2023-11-15T10:15:18.999Z</lastmod>
+    <lastmod>2023-11-15T10:15:51.747Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-load-balancer.html</loc>
-    <lastmod>2023-11-15T10:15:19.523Z</lastmod>
+    <lastmod>2023-11-15T10:15:52.347Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-expressroute-and-expressroute-direct-connection.html</loc>
-    <lastmod>2023-11-15T10:15:20.083Z</lastmod>
+    <lastmod>2023-11-15T10:15:52.915Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-application-gateway.html</loc>
-    <lastmod>2023-11-15T10:15:20.583Z</lastmod>
+    <lastmod>2023-11-15T10:15:53.463Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/design-network-topology.html</loc>
-    <lastmod>2023-11-15T10:15:21.099Z</lastmod>
+    <lastmod>2023-11-15T10:15:54.039Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/design-azure-virtual-networks.html</loc>
-    <lastmod>2023-11-15T10:15:21.619Z</lastmod>
+    <lastmod>2023-11-15T10:15:54.579Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-virtual-wan.html</loc>
-    <lastmod>2023-11-15T10:15:22.151Z</lastmod>
+    <lastmod>2023-11-15T10:15:55.131Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics/azure-traffic-manager.html</loc>
-    <lastmod>2023-11-15T10:15:22.671Z</lastmod>
+    <lastmod>2023-11-15T10:15:55.667Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/index.html</loc>
-    <lastmod>2023-11-15T10:15:23.167Z</lastmod>
+    <lastmod>2023-11-15T10:15:56.199Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-networks/topics.html</loc>
-    <lastmod>2023-11-15T10:15:23.647Z</lastmod>
+    <lastmod>2023-11-15T10:15:56.691Z</lastmod>
   </url>
 </urlset>
