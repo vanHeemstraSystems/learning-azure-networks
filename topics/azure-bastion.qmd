@@ -1,0 +1,17 @@
+---
+title: "Azure Bastion"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Bastion
+The Azure Bastion service is a fully platform-managed PaaS service, which provides secure and seamless RDP/SSH connectivity to your virtual machine directly in the Azure portal over TLS.
+
+![Azure Bastion.](../images/azure-bastion.png)
+
+Recommended Azure Bastion when you need to:
+
+- Secure remote connections from the Azure portal to Azure VMs.
+- Eliminate exposing RDP and SSH public IP addresses of your Azure VMs.
+- Access VMs across multiple, peered networks.
