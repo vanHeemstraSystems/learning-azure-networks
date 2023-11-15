@@ -6,7 +6,7 @@ css: ../styles.css
 Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
 
 # Azure Distributed Denial of Service (DDoS) Protection Standard
-Azure DDoS Standard Protection provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.
+Azure DDoS Protection Standard provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.
 
 ![Azure Distributed Denial of Service (DDoS) Protection Standard.](../images/azure-distributed-denial-of-service-protection-standard.png)
 
