@@ -1,0 +1,17 @@
+---
+title: "Azure Service Endpoints"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Service Endpoints
+Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services over an optimized route over the Azure backbone network.
+
+![Azure Service Endpoints.](../images/azure-service-endpoints.png)
+
+Key Benefits:
+
+- Improved security for your Azure service resources.
+- Optimal routing for Azure service traffic from your virtual network.
+- Simple to set up with less management overhead.
