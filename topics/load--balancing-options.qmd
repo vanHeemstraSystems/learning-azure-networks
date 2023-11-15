@@ -1,0 +1,9 @@
+---
+title: "Load Balancing Options"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Load Balancing Options
+Learn about [Azure Load-Balancing services](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview) and how you can use them to distribute your workloads across multiple computing resources.
