@@ -70,11 +70,11 @@
     "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
   },
   {
-    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "title": "Global Transit with Azure Virtual WAN",
+    "objectID": "topics/azure-private-link.html",
+    "href": "topics/azure-private-link.html",
+    "title": "Azure Private Link",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
+    "text": "Source: Network Infrastructure\n\nAzure Private Link\nAzure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/pertnet services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.\n\n\n\nAzure Private Link.\n\n\nRecommend private link or private endpoints when:\n\nYou need private connectivity to services on Azure.\nYou need integration with on-premises and peered networks.\nYou need traffic to remain on Microsoft network, with no public Internet access."
   },
   {
     "objectID": "topics/gather-network-requirements.html",
@@ -82,6 +82,13 @@
     "title": "Gather Network Requirements",
     "section": "",
     "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "title": "Global Transit with Azure Virtual WAN",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
   },
   {
     "objectID": "topics/azure-front-door-service.html",
