@@ -1,0 +1,15 @@
+---
+title: "Azure Just-in-Time (JIT) Network Access"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Just-in-Time (JIT) Network Access
+With JIT, you can lock down the inbound traffic to your VMs, reducing exposure to attacks while providing easy access to connect to VMs when needed.
+
+![Azure Just-in-Time (JIT) Network Access.](../images/azure-just-in-time-network-access.png)
+
+- Supports ports other than 3389 and 22.
+- Ports are blocked when not in use.
+- Integrates with NSGs and Azure Firewall.
