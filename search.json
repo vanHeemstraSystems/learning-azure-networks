@@ -21,53 +21,11 @@
     "text": "Source: Network Infrastructure\n\nAzure ExpressRoute with VPN Failover\nThis option combines the previous two, using Azure ExpressRoute in normal condition, but failing over to a VPN connection if there is a loss of connectivity in the ExpressRoute circuit.\n\n\n\nAzure ExpressRoute with VPN Failover.\n\n\nBenefits:\n\nHigh availability if the ExpressRoute circuit fails, although the fallback connection is on a lower bandwidth network.\n\nChallenges:\n\nComplex to configure. You need to set up both a VPN connection and an ExpressRoute circuit.\nRequires redundant hardware (VPN appliances), and a redundant Azure VPN Gateway connection for which you pay charges."
   },
   {
-    "objectID": "topics/design-azure-virtual-networks.html",
-    "href": "topics/design-azure-virtual-networks.html",
-    "title": "Design Azure Virtual Networks",
+    "objectID": "topics/azure-virtual-wan.html",
+    "href": "topics/azure-virtual-wan.html",
+    "title": "Azure Virtual WAN",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nDesign Azure Virtual Networks\nAzure Virtual Network is the fundamental building block for your private network in Azure. A virtual network is a virtual, isolated portion of Azure public network. Use VNets for communication between Azure resources, the internet, and on-premises networks.\n\n\n\nDesign Azure Virtual Networks."
-  },
-  {
-    "objectID": "topics/design-network-topology.html",
-    "href": "topics/design-network-topology.html",
-    "title": "Design Network Topology",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nDesign Network Topology\nSegmentation is a model in which you take your networking footprint and create software defined perimeters using tools available in Microsoft Azure.\n\n\n\nDesign Network Topology.\n\n\nPattern 1: Single Virtual Network\nPattern 2: Multiple Virtual networks with peering in between them.\nPattern 3: Multiple Virtual Networks in a Hub & Spoke model."
-  },
-  {
-    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
-  },
-  {
-    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "title": "Global Transit with Azure Virtual WAN",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
-  },
-  {
-    "objectID": "topics/gather-network-requirements.html",
-    "href": "topics/gather-network-requirements.html",
-    "title": "Gather Network Requirements",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
-  },
-  {
-    "objectID": "topics/defense-in-depth-matching.html",
-    "href": "topics/defense-in-depth-matching.html",
-    "title": "Defense in Depth (Matching)",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
-  },
-  {
-    "objectID": "topics/design-outbound-connectivity.html",
-    "href": "topics/design-outbound-connectivity.html",
-    "title": "Design Outbound Connectivity",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nDesign Outbound Connectivity\nVirtual Network NAT (Network Address Translation) simplifies outbound-only Internet connectivity for virtual networks. When configured on a subnet, all outbound connectivity uses your specified static public IP addresses. NAT is fully managed and highly resilient.\n\n\n\nDesign Outbound Connectivity.\n\n\nOptions include:\n\nAzure Firewall.\nLoad Balancer.\nVirtual Network NAT Gateway.\n\nChoose Virtual Network NAT Gateway when:\n\nYou need on-demand outbound to Internet connectivity without pre-allocation.\nYou need one or more static public IP addresses for scale.\nYou need configurable idle timeout.\nYou need TCP reset for unrecognized connections."
+    "text": "Source: Network Infrastructure\n\nAzure Virtual WAN\nAzure Virtual WAN is a networking service that brings many networking, security, and routing functionalities together to provide a single operational interface.\n\n\n\nAzure Virtual WAN.\n\n\n\nFully managed VWAN service.\nCost savings by using a managed service and removing the necessity of network virtual appliance.\nImproved security by introducing centrally managed secured Hubs with Azure Firewall and VWAN.\nSeparation of Concerns between central IT (SecOps, InfraOps) and workloads (DevOps)."
   },
   {
     "objectID": "topics/vpn-connection.html",
@@ -77,11 +35,60 @@
     "text": "Source: Network Infrastructure\n\nVPN Connection\nA VPN Gateway is a type of Virtul Network Gateway that sends encrypted traffic between an Azure Virtual Network and an On-Premises location.\n\n\n\nVPN Connection.\n\n\nBenefits:\n\nSimple to configure.\nUp to 10 Gbps depending on the VPN Gateway SKU.\n\nChallenges:\n\nRequires an On-Premises VPN device.\nThe SLA only covers the VPN Gateway, and not your network connection to the Gateway or throughput."
   },
   {
-    "objectID": "topics/azure-virtual-wan.html",
-    "href": "topics/azure-virtual-wan.html",
-    "title": "Azure Virtual WAN",
+    "objectID": "topics/design-outbound-connectivity.html",
+    "href": "topics/design-outbound-connectivity.html",
+    "title": "Design Outbound Connectivity",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Virtual WAN\nAzure Virtual WAN is a networking service that brings many networking, security, and routing functionalities together to provide a single operational interface.\n\n\n\nAzure Virtual WAN.\n\n\n\nFully managed VWAN service.\nCost savings by using a managed service and removing the necessity of network virtual appliance.\nImproved security by introducing centrally managed secured Hubs with Azure Firewall and VWAN.\nSeparation of Concerns between central IT (SecOps, InfraOps) and workloads (DevOps)."
+    "text": "Source: Network Infrastructure\n\nDesign Outbound Connectivity\nVirtual Network NAT (Network Address Translation) simplifies outbound-only Internet connectivity for virtual networks. When configured on a subnet, all outbound connectivity uses your specified static public IP addresses. NAT is fully managed and highly resilient.\n\n\n\nDesign Outbound Connectivity.\n\n\nOptions include:\n\nAzure Firewall.\nLoad Balancer.\nVirtual Network NAT Gateway.\n\nChoose Virtual Network NAT Gateway when:\n\nYou need on-demand outbound to Internet connectivity without pre-allocation.\nYou need one or more static public IP addresses for scale.\nYou need configurable idle timeout.\nYou need TCP reset for unrecognized connections."
+  },
+  {
+    "objectID": "topics/defense-in-depth-matching.html",
+    "href": "topics/defense-in-depth-matching.html",
+    "title": "Defense in Depth (Matching)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
+  },
+  {
+    "objectID": "topics/gather-network-requirements.html",
+    "href": "topics/gather-network-requirements.html",
+    "title": "Gather Network Requirements",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "title": "Global Transit with Azure Virtual WAN",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
+  },
+  {
+    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
+  },
+  {
+    "objectID": "topics/design-network-topology.html",
+    "href": "topics/design-network-topology.html",
+    "title": "Design Network Topology",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDesign Network Topology\nSegmentation is a model in which you take your networking footprint and create software defined perimeters using tools available in Microsoft Azure.\n\n\n\nDesign Network Topology.\n\n\nPattern 1: Single Virtual Network\nPattern 2: Multiple Virtual networks with peering in between them.\nPattern 3: Multiple Virtual Networks in a Hub & Spoke model."
+  },
+  {
+    "objectID": "topics/design-azure-virtual-networks.html",
+    "href": "topics/design-azure-virtual-networks.html",
+    "title": "Design Azure Virtual Networks",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDesign Azure Virtual Networks\nAzure Virtual Network is the fundamental building block for your private network in Azure. A virtual network is a virtual, isolated portion of Azure public network. Use VNets for communication between Azure resources, the internet, and on-premises networks.\n\n\n\nDesign Azure Virtual Networks."
+  },
+  {
+    "objectID": "topics/choosing-a-load-balancer-solution.html",
+    "href": "topics/choosing-a-load-balancer-solution.html",
+    "title": "Choosing a Load Balancer Solution",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nChoosing a Load Balancer Solution\nAzure provides various Load Balancing services that you can use to distribute your workloads across multiple computing resources - Azure Front Door, Traffic manager, Load Balancer, and Application Gateway.\n\n\n\nChoosing a Load Balancer Solution.\n\n\nDecision criteria:\n\nTraffic type.\nGlobal versus Regional.\nAvailability.\nCost.\nFeatures and Limits.\nTreat this flowchart as a starting point."
   },
   {
     "objectID": "index.html",
