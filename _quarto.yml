@@ -58,6 +58,8 @@ website:
         - topics/azure-private-link.qmd
         - text: "---"
         - topics/azure-network-security-groups.qmd
+        - text: "---"
+        - topics/azure-firewall.qmd
         
 format:
   html:
