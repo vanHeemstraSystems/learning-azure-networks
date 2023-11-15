@@ -60,6 +60,8 @@ website:
         - topics/azure-network-security-groups.qmd
         - text: "---"
         - topics/azure-firewall.qmd
+        - text: "---"
+        - topics/azure-web-application-firewall.qmd 
         
 format:
   html:
