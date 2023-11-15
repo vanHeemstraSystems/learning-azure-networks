@@ -84,6 +84,13 @@
     "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
   },
   {
+    "objectID": "topics/azure-web-application-firewall.html",
+    "href": "topics/azure-web-application-firewall.html",
+    "title": "Azure Web Application Firewall (WAF)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Web Application Firewall (WAF)\nAzure Web Application Firewall (WAF) provides centralized protection to your web applications from common web exploits and vulnerabilities such as SQL injection, and cross-site scripting. Azure WAF provides out-of-the-box protection from OWASP top 10 vulnerabilities via managed rules.\n\n\n\nAzure Web Application Firewall (WAF).\n\n\nWhen to use Azure Web Application Firewall (WAF):\n\nTo prevent attacks in application code.\nCentrally manage security for applications.\nDeploy WAF with Azure Application Gateway, Azure Front Door, and Azure Content Delivery Network (CDN)."
+  },
+  {
     "objectID": "topics/gather-network-requirements.html",
     "href": "topics/gather-network-requirements.html",
     "title": "Gather Network Requirements",
