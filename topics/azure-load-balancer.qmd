@@ -1,0 +1,17 @@
+---
+title: "Azure Load Balancer"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Load Balancer
+High-Performance, Low-Latency Load Balancing for all UDP and TCP protocols.
+
+![Azure Load Balancer.](../images/azure-load-balancer.png)
+
+- Layer 4 Load-Balancing for all UDP and TCP protocols.
+- Manages inbound and outbound connections.
+- Provides public and internal load-balanced endpoints.
+- Uses rules to map inbound connections to backend destinations.
+- Health probes manage service availability.
