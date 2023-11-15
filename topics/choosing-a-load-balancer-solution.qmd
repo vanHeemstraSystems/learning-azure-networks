@@ -1,0 +1,20 @@
+---
+title: "Choosing a Load Balancer Solution"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Choosing a Load Balancer Solution
+Azure provides various Load Balancing services that you can use to distribute your workloads across multiple computing resources - Azure Front Door, Traffic manager, Load Balancer, and Application Gateway.
+
+![Choosing a Load Balancer Solution.](../images/choosing-a-load-balancer-solution.png)
+
+Decision criteria:
+
+- Traffic type.
+- Global versus Regional.
+- Availability.
+- Cost.
+- Features and Limits.
+- Treat this [flowchart](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview) as a starting point.
