@@ -49,60 +49,18 @@
     "text": "Source: Network Infrastructure\n\nDesign Outbound Connectivity\nVirtual Network NAT (Network Address Translation) simplifies outbound-only Internet connectivity for virtual networks. When configured on a subnet, all outbound connectivity uses your specified static public IP addresses. NAT is fully managed and highly resilient.\n\n\n\nDesign Outbound Connectivity.\n\n\nOptions include:\n\nAzure Firewall.\nLoad Balancer.\nVirtual Network NAT Gateway.\n\nChoose Virtual Network NAT Gateway when:\n\nYou need on-demand outbound to Internet connectivity without pre-allocation.\nYou need one or more static public IP addresses for scale.\nYou need configurable idle timeout.\nYou need TCP reset for unrecognized connections."
   },
   {
-    "objectID": "topics/load-balancing-options.html",
-    "href": "topics/load-balancing-options.html",
-    "title": "Load Balancing Options",
+    "objectID": "topics/azure-firewall.html",
+    "href": "topics/azure-firewall.html",
+    "title": "Azure Firewwall",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nLoad Balancing Options\nLearn about Azure Load-Balancing services and how you can use them to distribute your workloads across multiple computing resources."
+    "text": "Source: Network Infrastructure\n\nAzure Firewall\nAzure Firewall is a cloud-native network security service offering high-availability and scalability. Azure Firewall provides inbound protection for non-HTTP/S protocols 9for example, RDP, SSH, FTP), outbound network-level protection for all ports and protocols, and application-level protection for outbound HTTP/S.\nUse Azure Firewall to:\n\nProtect your network against infiltration.\nImplement hierarchical firewall policies.\nConfigure spoke-to-spoke connectivity.\nMonitor incoming and outgoing traffic.\nIf you require multiple firewalls."
   },
   {
-    "objectID": "topics/azure-content-delivery-network.html",
-    "href": "topics/azure-content-delivery-network.html",
-    "title": "Azure Content Delivery Network (CDN)",
+    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
+    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Content Delivery Network (CDN)\nAzure Content Delivery Network (CDN) offers developers a global solution for rapidly delivering high-bandwidth content to users by caching their content at strategically placed physical nodes across the world.\n\n\n\nAzure Content Delivery Network (CDN).\n\n\nWhen to leverage a CDN:\n\nYou want point-of-presence locations that are close to large clusters of users.\nYou want to reduce latency - both the transmission delay and the number of router hops.\nYou want custom domains, file compression, caching, and geo-filtering."
-  },
-  {
-    "objectID": "topics/defense-in-depth-matching.html",
-    "href": "topics/defense-in-depth-matching.html",
-    "title": "Defense in Depth (Matching)",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
-  },
-  {
-    "objectID": "topics/azure-private-link.html",
-    "href": "topics/azure-private-link.html",
-    "title": "Azure Private Link",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Private Link\nAzure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.\n\n\n\nAzure Private Link.\n\n\nRecommend private link or private endpoints when:\n\nYou need private connectivity to services on Azure.\nYou need integration with on-premises and peered networks.\nYou need traffic to remain on Microsoft network, with no public Internet access."
-  },
-  {
-    "objectID": "topics/azure-network-security-groups.html",
-    "href": "topics/azure-network-security-groups.html",
-    "title": "Azure Network Security Groups (NSG)",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Network Security Groups (NSG)\n\nYou can filter network traffic to and from Azure resources in an Azure virtual network with a Network Security Group.\nA Network Security Group (NSG) contains a list of Access Control List (ACL) rules that allow or deny network traffic to subnets, NICs, or both.\nNSGs contain two sets of rules: inbound and outbound. The priority for a rule must be unique within each set."
-  },
-  {
-    "objectID": "topics/gather-network-requirements.html",
-    "href": "topics/gather-network-requirements.html",
-    "title": "Gather Network Requirements",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
-  },
-  {
-    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "title": "Global Transit with Azure Virtual WAN",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
-  },
-  {
-    "objectID": "topics/azure-front-door-service.html",
-    "href": "topics/azure-front-door-service.html",
-    "title": "Azure Front Door Service",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Front Door Service\nAzure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic by optimizing for best performance and instant global failover for high availability.\n\n\n\nAzure Front Door Service.\n\n\nChoose Azure Front Door when:\n\nYou need to ensure that requests are sent to the lowest latency backends (low latency).\nYou have primary and secondary backends (priority).\nYou want to distribute traffic using weight coefficients (weighted).\nYou want to ensure requests from the same end user get sent to the same backend (affinity).\nYour traffic is HTTP(s) based and you need WAF and/or CDN integration."
+    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
   },
   {
     "objectID": "topics/azure-load-balancer.html",
@@ -112,11 +70,60 @@
     "text": "Source: Network Infrastructure\n\nAzure Load Balancer\nHigh-Performance, Low-Latency Load Balancing for all UDP and TCP protocols.\n\n\n\nAzure Load Balancer.\n\n\n\nLayer 4 Load-Balancing for all UDP and TCP protocols.\nManages inbound and outbound connections.\nProvides public and internal load-balanced endpoints.\nUses rules to map inbound connections to backend destinations.\nHealth probes manage service availability."
   },
   {
-    "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "href": "topics/azure-expressroute-and-expressroute-direct-connection.html",
-    "title": "Azure ExpressRoute and ExpressRoute Direct connection",
+    "objectID": "topics/azure-front-door-service.html",
+    "href": "topics/azure-front-door-service.html",
+    "title": "Azure Front Door Service",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure ExpressRoute and ExpressRoute Direct connection\nExpressRoute connections use a private, dedicated connection through a third-party connectivity provider. This connection is private.\n\n\n\nAzure ExpressRoute and ExpressRoute Direct connection.\n\n\nBenefits:\n\nUp to 100 Gbps bandwith - supports dynamic scaling of bandwidth and direct access to national clouds.\nGlobal reach - traffic over private connection.\nUp to 99.95% availability SLA across the entire connection.\n\nChallenges:\n\nCan be complex to set up.\nWorking with a third-party connectivity provider.\nRequires high-bandwidth routers on-premises."
+    "text": "Source: Network Infrastructure\n\nAzure Front Door Service\nAzure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic by optimizing for best performance and instant global failover for high availability.\n\n\n\nAzure Front Door Service.\n\n\nChoose Azure Front Door when:\n\nYou need to ensure that requests are sent to the lowest latency backends (low latency).\nYou have primary and secondary backends (priority).\nYou want to distribute traffic using weight coefficients (weighted).\nYou want to ensure requests from the same end user get sent to the same backend (affinity).\nYour traffic is HTTP(s) based and you need WAF and/or CDN integration."
+  },
+  {
+    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "title": "Global Transit with Azure Virtual WAN",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
+  },
+  {
+    "objectID": "topics/gather-network-requirements.html",
+    "href": "topics/gather-network-requirements.html",
+    "title": "Gather Network Requirements",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/azure-network-security-groups.html",
+    "href": "topics/azure-network-security-groups.html",
+    "title": "Azure Network Security Groups (NSG)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Network Security Groups (NSG)\n\nYou can filter network traffic to and from Azure resources in an Azure virtual network with a Network Security Group.\nA Network Security Group (NSG) contains a list of Access Control List (ACL) rules that allow or deny network traffic to subnets, NICs, or both.\nNSGs contain two sets of rules: inbound and outbound. The priority for a rule must be unique within each set."
+  },
+  {
+    "objectID": "topics/azure-private-link.html",
+    "href": "topics/azure-private-link.html",
+    "title": "Azure Private Link",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Private Link\nAzure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.\n\n\n\nAzure Private Link.\n\n\nRecommend private link or private endpoints when:\n\nYou need private connectivity to services on Azure.\nYou need integration with on-premises and peered networks.\nYou need traffic to remain on Microsoft network, with no public Internet access."
+  },
+  {
+    "objectID": "topics/defense-in-depth-matching.html",
+    "href": "topics/defense-in-depth-matching.html",
+    "title": "Defense in Depth (Matching)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
+  },
+  {
+    "objectID": "topics/azure-content-delivery-network.html",
+    "href": "topics/azure-content-delivery-network.html",
+    "title": "Azure Content Delivery Network (CDN)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Content Delivery Network (CDN)\nAzure Content Delivery Network (CDN) offers developers a global solution for rapidly delivering high-bandwidth content to users by caching their content at strategically placed physical nodes across the world.\n\n\n\nAzure Content Delivery Network (CDN).\n\n\nWhen to leverage a CDN:\n\nYou want point-of-presence locations that are close to large clusters of users.\nYou want to reduce latency - both the transmission delay and the number of router hops.\nYou want custom domains, file compression, caching, and geo-filtering."
+  },
+  {
+    "objectID": "topics/load-balancing-options.html",
+    "href": "topics/load-balancing-options.html",
+    "title": "Load Balancing Options",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nLoad Balancing Options\nLearn about Azure Load-Balancing services and how you can use them to distribute your workloads across multiple computing resources."
   },
   {
     "objectID": "topics/azure-application-gateway.html",
