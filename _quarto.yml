@@ -42,6 +42,8 @@ website:
         - topics/choosing-a-load-balancer-solution.qmd
         - text: "---"
         - topics/load-balancing-options.qmd
+        - text: "---"
+        - topics/azure-load-balancer.qmd        
         
 format:
   html:
