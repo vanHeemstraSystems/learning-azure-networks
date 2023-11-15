@@ -1,0 +1,13 @@
+---
+title: "Azure Application Gateway"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Application Gateway
+Azure Virtual WAN is a networking service that brings many networking, security, and routing functionalities together to provide a single operational interface.
+
+![Azure Application Gateway.](../images/azure-application-gateway.png)
+
+- Text.
