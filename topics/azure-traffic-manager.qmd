@@ -1,0 +1,18 @@
+---
+title: "Azure Traffic Manager"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Traffic Manager
+Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions. Azure Traffic Manager provides a range of traffic-routing methods to distribute traffic such as priority, weighted, performance, geographic, multi-value, or subnet.
+
+![Azure Traffic Manager.](../images/azure-traffic-manager.png)
+
+Choose Azure Traffic Manager when you need:
+
+- To increase application availability.
+- Improve application performance.
+- Combine hybrid applications.
+- Distribute traffic for complex deployments.
