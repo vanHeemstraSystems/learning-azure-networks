@@ -77,8 +77,8 @@
     "text": "Source: Network Infrastructure\n\nAzure Load Balancer\nHigh-Performance, Low-Latency Load Balancing for all UDP and TCP protocols.\n\n\n\nAzure Load Balancer.\n\n\n\nLayer 4 Load-Balancing for all UDP and TCP protocols.\nManages inbound and outbound connections.\nProvides public and internal load-balanced endpoints.\nUses rules to map inbound connections to backend destinations.\nHealth probes manage service availability."
   },
   {
-    "objectID": "topics/load--balancing-options.html",
-    "href": "topics/load--balancing-options.html",
+    "objectID": "topics/load-balancing-options.html",
+    "href": "topics/load-balancing-options.html",
     "title": "Load Balancing Options",
     "section": "",
     "text": "Source: Network Infrastructure\n\nLoad Balancing Options\nLearn about Azure Load-Balancing services and how you can use them to distribute your workloads across multiple computing resources."
