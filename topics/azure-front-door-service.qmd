@@ -1,0 +1,19 @@
+---
+title: "Azure Front Door Service"
+css: ../styles.css
+---
+
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Front Door Service
+Azure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic by optimizing for best performance and instant global failover for high availability.
+
+![Azure Front Door Service.](../images/azure-front-door-service.png)
+
+Choose Azure Front Door when:
+
+- You need to ensure that requests are sent to the lowest latency backends (low latency).
+- You have primary and secondary backends (priority).
+- You want to distribute traffic using weight coefficients (weighted).
+- You want to ensure requests from the same end user get sent to the same backend (affinity).
+- Your traffic is HTTP(s) based and you need WAF and/or CDN integration.
