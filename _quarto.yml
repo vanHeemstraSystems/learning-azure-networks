@@ -44,6 +44,8 @@ website:
         - topics/load-balancing-options.qmd
         - text: "---"
         - topics/azure-load-balancer.qmd        
+        - text: "---"
+        - topics/azure-application-gateway.qmd
         
 format:
   html:
