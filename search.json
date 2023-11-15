@@ -88,7 +88,7 @@
     "href": "topics/azure-distributed-denial-of-service-protection-standard.html",
     "title": "Azure Distributed Denial of Service (DDoS) Protection Standard",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Distributed Denial of Service (DDoS) Protection Standard\nAzure DDoS Standard Protection provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.\n\n\n\nAzure Distributed Denial of Service (DDoS) Protection Standard.\n\n\nUse DDoS Protection Standard:\n\nAlways-on traffic monitoring.\nAdaptive tuning.\nMulti-layered protection.\nMitigation scale.\nAttack analytics and metrics.\nAttack alerting.\nDDoS rapid response."
+    "text": "Source: Network Infrastructure\n\nAzure Distributed Denial of Service (DDoS) Protection Standard\nAzure DDoS Protection Standard provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.\n\n\n\nAzure Distributed Denial of Service (DDoS) Protection Standard.\n\n\nUse DDoS Protection Standard:\n\nAlways-on traffic monitoring.\nAdaptive tuning.\nMulti-layered protection.\nMitigation scale.\nAttack analytics and metrics.\nAttack alerting.\nDDoS rapid response."
   },
   {
     "objectID": "topics/gather-network-requirements.html",
