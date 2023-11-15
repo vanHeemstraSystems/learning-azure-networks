@@ -49,6 +49,13 @@
     "text": "Source: Network Infrastructure\n\nLoad Balancing Options\nLearn about Azure Load-Balancing services and how you can use them to distribute your workloads across multiple computing resources."
   },
   {
+    "objectID": "topics/azure-content-delivery-network.html",
+    "href": "topics/azure-content-delivery-network.html",
+    "title": "Azure Content Delivery Network (CDN)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Content Delivery Network (CDN)\nAzure Content Delivery Network (CDN) offers developers a global solution for rapidly delivering high-bandwidth content to users by caching their content at strategically placed physical nodes across the world.\n\n\n\nAzure Content Delivery Network (CDN).\n\n\nWhen to leverage a CDN:\n\nYou want point-of-presence locations that are close to large clusters of users.\nYou want to reduce latency - both the transmission delay and the number of router hops.\nYou want custom domains, file compression, caching, and geo-filtering."
+  },
+  {
     "objectID": "topics/defense-in-depth-matching.html",
     "href": "topics/defense-in-depth-matching.html",
     "title": "Defense in Depth (Matching)",
