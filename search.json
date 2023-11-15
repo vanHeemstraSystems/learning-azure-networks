@@ -88,7 +88,7 @@
     "href": "topics/azure-application-gateway.html",
     "title": "Azure Application Gateway",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Application Gateway\nAzure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. It is an Application Delivery Controller (ADC) as a service, offering various layer 7 load-balancing capabilities for your applications.\n\n\n\nAzure Application Gateway.\n\n\n\nText."
+    "text": "Source: Network Infrastructure\n\nAzure Application Gateway\nAzure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. It is an Application Delivery Controller (ADC) as a service, offering various layer 7 load-balancing capabilities for your applications.\n\n\n\nAzure Application Gateway.\n\n\nWhen to use Azure Application Gateway\n\nLayer 7 - HTTP(S) only.\nSupports WAF-stateful inspection.\nTraffic routing.\nSSL/TLS termination.\nSupports PaaS and Ips.\nRegional service."
   },
   {
     "objectID": "topics/design-network-topology.html",
