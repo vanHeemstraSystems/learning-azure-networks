@@ -38,6 +38,8 @@ website:
         - topics/design-network-topology.qmd
         - text: "---"
         - topics/design-outbound-connectivity.qmd
+        - text: "---"
+        - topics/choosing-a-load-balancer-solution.qmd
         
 format:
   html:
