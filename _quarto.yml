@@ -66,6 +66,8 @@ website:
         - topics/azure-distributed-denial-of-service-protection-standard.qmd
         - text: "---"
         - topics/azure-bastion.qmd
+        - text: "---"
+        - topics/azure-just-in-time-network-access.qmd
         
 format:
   html:
