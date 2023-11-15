@@ -1,1 +1,17 @@
+---
+title: "Azure Web Application Firewall (WAF)"
+css: ../styles.css
+---
 
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Web Application Firewall (WAF)
+Azure Web Application Firewall (WAF) provides centralized protection to your web applications from common web exploits and vulnerabilities such as SQL injection, and cross-site scripting. Azure WAF provides out-of-the-box protection from OWASP top 10 vulnerabilities via managed rules.
+
+![Azure Web Application Firewall (WAF).](../images/azure-web-application-firewall.png)
+
+When to use Azure Web Application Firewall (WAF):
+
+- To prevent attacks in application code.
+- Centrally manage security for applications.
+- Deploy WAF with Azure Application Gateway, Azure Front Door, and Azure Content Delivery Network (CDN).
