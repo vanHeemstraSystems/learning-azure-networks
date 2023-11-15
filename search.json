@@ -51,9 +51,9 @@
   {
     "objectID": "topics/azure-firewall.html",
     "href": "topics/azure-firewall.html",
-    "title": "Azure Firewwall",
+    "title": "Azure Firewall",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Firewall\nAzure Firewall is a cloud-native network security service offering high-availability and scalability. Azure Firewall provides inbound protection for non-HTTP/S protocols 9for example, RDP, SSH, FTP), outbound network-level protection for all ports and protocols, and application-level protection for outbound HTTP/S.\nUse Azure Firewall to:\n\nProtect your network against infiltration.\nImplement hierarchical firewall policies.\nConfigure spoke-to-spoke connectivity.\nMonitor incoming and outgoing traffic.\nIf you require multiple firewalls."
+    "text": "Source: Network Infrastructure\n\nAzure Firewall\nAzure Firewall is a cloud-native network security service offering high-availability and scalability. Azure Firewall provides inbound protection for non-HTTP/S protocols 9for example, RDP, SSH, FTP), outbound network-level protection for all ports and protocols, and application-level protection for outbound HTTP/S.\n\n\n\nAzure Firewall.\n\n\nUse Azure Firewall to:\n\nProtect your network against infiltration.\nImplement hierarchical firewall policies.\nConfigure spoke-to-spoke connectivity.\nMonitor incoming and outgoing traffic.\nIf you require multiple firewalls."
   },
   {
     "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
