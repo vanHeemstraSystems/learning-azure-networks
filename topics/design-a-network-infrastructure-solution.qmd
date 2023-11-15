@@ -15,7 +15,7 @@ To put together the initial networking design, the Tailwind Traders Enterprise I
 
 **Design - BI enterprise application**
 
-![BI enterprise application.](../images/bi-enterprise-application.png)
+![BI enterprise application.](../images/design-bi-enterprise-application.png)
 
 - An internal, Windows-based, three-tier business intelligence (BI) enterprise application with the front-end tier running IIS web servers, the middle tier hosting .NET Framework-based business logic, and the back-end tier implemented as a SQL Server Always On Availability Group database.
 
