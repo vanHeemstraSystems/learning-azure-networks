@@ -91,6 +91,13 @@
     "text": "Source: Network Infrastructure\n\nAzure Distributed Denial of Service (DDoS) Protection Standard\nAzure DDoS Protection Standard provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.\n\n\n\nAzure Distributed Denial of Service (DDoS) Protection Standard.\n\n\nUse DDoS Protection Standard:\n\nAlways-on traffic monitoring.\nAdaptive tuning.\nMulti-layered protection.\nMitigation scale.\nAttack analytics and metrics.\nAttack alerting.\nDDoS rapid response."
   },
   {
+    "objectID": "topics/azure-web-application-firewall.html",
+    "href": "topics/azure-web-application-firewall.html",
+    "title": "Azure Web Application Firewall (WAF)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Web Application Firewall (WAF)\nAzure Web Application Firewall (WAF) provides centralized protection to your web applications from common web exploits and vulnerabilities such as SQL injection, and cross-site scripting. Azure WAF provides out-of-the-box protection from OWASP top 10 vulnerabilities via managed rules.\n\n\n\nAzure Web Application Firewall (WAF).\n\n\nWhen to use Azure Web Application Firewall (WAF):\n\nTo prevent attacks in application code.\nCentrally manage security for applications.\nDeploy WAF with Azure Application Gateway, Azure Front Door, and Azure Content Delivery Network (CDN)."
+  },
+  {
     "objectID": "topics/gather-network-requirements.html",
     "href": "topics/gather-network-requirements.html",
     "title": "Gather Network Requirements",
@@ -98,11 +105,11 @@
     "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
   },
   {
-    "objectID": "topics/azure-web-application-firewall.html",
-    "href": "topics/azure-web-application-firewall.html",
-    "title": "Azure Web Application Firewall (WAF)",
+    "objectID": "topics/azure-bastion.html",
+    "href": "topics/azure-bastion.html",
+    "title": "Azure Bastion",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Web Application Firewall (WAF)\nAzure Web Application Firewall (WAF) provides centralized protection to your web applications from common web exploits and vulnerabilities such as SQL injection, and cross-site scripting. Azure WAF provides out-of-the-box protection from OWASP top 10 vulnerabilities via managed rules.\n\n\n\nAzure Web Application Firewall (WAF).\n\n\nWhen to use Azure Web Application Firewall (WAF):\n\nTo prevent attacks in application code.\nCentrally manage security for applications.\nDeploy WAF with Azure Application Gateway, Azure Front Door, and Azure Content Delivery Network (CDN)."
+    "text": "Source: Network Infrastructure\n\nAzure Bastion\nThe Azure Bastion service is a fully platform-managed PaaS service, which provides secure and seamless RDP/SSH connectivity to your virtual machine directly in the Azure portal over TLS.\n\n\n\nAzure Bastion.\n\n\nRecommended Azure Bastion when you need to:\n\nSecure remote connections from the Azure portal to Azure VMs.\nEliminate exposing RDP and SSH public IP addresses of your Azure VMs.\nAccess VMs across multiple, peered networks."
   },
   {
     "objectID": "topics/azure-network-security-groups.html",
