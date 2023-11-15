@@ -56,6 +56,8 @@ website:
         - topics/azure-service-endpoints.qmd
         - text: "---"
         - topics/azure-private-link.qmd
+        - text: "---"
+        - topics/azure-network-security-groups.qmd
         
 format:
   html:
