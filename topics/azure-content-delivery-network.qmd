@@ -1,1 +1,17 @@
+---
+title: "Azure Content Delivery Network (CDN)"
+css: ../styles.css
+---
 
+Source: [Network Infrastructure](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html)
+
+# Azure Content Delivery Network (CDN)
+Azure Content Delivery Network (CDN) offers developers a global solution for rapidly delivering high-bandwidth content to users by caching their content at strategically placed physical nodes across the world.
+
+![Azure Content Delivery Network (CDN).](../images/azure-content-delivery-network.png)
+
+When to leverage a CDN:
+
+- You want point-of-presence locations that are close to large clusters of users.
+- You want to reduce latency - both the transmission delay and the number of router hops.
+- You want custom domains, file compression, caching, and geo-filtering.
