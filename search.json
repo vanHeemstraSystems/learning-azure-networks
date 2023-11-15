@@ -63,67 +63,18 @@
     "text": "Source: Network Infrastructure\n\nLoad Balancing Options\nLearn about Azure Load-Balancing services and how you can use them to distribute your workloads across multiple computing resources."
   },
   {
-    "objectID": "topics/azure-content-delivery-network.html",
-    "href": "topics/azure-content-delivery-network.html",
-    "title": "Azure Content Delivery Network (CDN)",
+    "objectID": "topics/design-a-network-infrastructure-solution.html",
+    "href": "topics/design-a-network-infrastructure-solution.html",
+    "title": "Design a Network Infrastructure Solution",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Content Delivery Network (CDN)\nAzure Content Delivery Network (CDN) offers developers a global solution for rapidly delivering high-bandwidth content to users by caching their content at strategically placed physical nodes across the world.\n\n\n\nAzure Content Delivery Network (CDN).\n\n\nWhen to leverage a CDN:\n\nYou want point-of-presence locations that are close to large clusters of users.\nYou want to reduce latency - both the transmission delay and the number of router hops.\nYou want custom domains, file compression, caching, and geo-filtering."
+    "text": "Source: Design a Network Infrastructure Solution\n\nDesign a Network Infrastructure Solution\nRequirements\nAs the Tailwind Traders Enterprise IT team prepares to define the strategy to migrate some of company’s workloads to Azure, it must identify the required networking components and design a network infrastructure necessary to support them. Considering the global scope of its operations, Tailwind Traders will be using multiple Azure regions to host its applications. Most of these applications have dependencies on infrastructure and data services, which will also reside in Azure. Internal applications migrated to Azure must remain accessible to Tailwind Traders users. Internet-facing applications migrated to Azure must remain accessible to any external customer.\nTo put together the initial networking design, the Tailwind Traders Enterprise IT team chose two key applications, which are representative of the most common categories of workloads that are expected to be migrated to Azure.\nDesign - BI enterprise application\n\n\n\nBI enterprise application.\n\n\n\nAn internal, Windows-based, three-tier business intelligence (BI) enterprise application with the front-end tier running IIS web servers, the middle tier hosting .NET Framework-based business logic, and the back-end tier implemented as a SQL Server Always On Availability Group database.\nThis application is categorized as mission-critical and requires high availability provisions with the availability SLA of 99.99% and disaster recovery provisions, with 10-minute RPO and 2-hour RTO.\nTo provide connectivity to internal apps migrated to Azure, Tailwind Traders will need to establish hybrid connectivity from their on-premises datacenters. The Enterprise IT group already established that such connectivity will be implemented by using ExpressRoute circuit from its main Seattle datacenter, however, at this point it is not clear yet what would be failover solution in case that circuit becomes unavailable. The Tailwind Traders CFO wants to avoid paying for another, redundant ExpressRoute circuit.\nThere are additional considerations that apply to on-premises connectivity to internal apps migrated to Azure. Since the Tailwind Traders Azure environment will consist of multiple subscriptions and, effectively, multiple virtual networks, to minimize cost, it is important to minimize the number of Azure resources required to implement core networking capabilities. Such capabilities include hybrid connectivity to on-premises locations as well as traffic filtering. Incidentally, this need to minimize cost aligns with the Information Security and Risk requirements, which state that all traffic between on-premises locations and Azure virtual networks must flow via a single virtual network, which will be hosting components responsible for hybrid connectivity and traffic filtering.\nAs per requirements defined by the Tailwind Traders Information Security and Risk teams, all communication between Azure VMs in different tiers that are part of the same application must allow only the ports required to run and maintain the application. However, due to IP address space limitations, it might not be possible to allocate dedicated subnets to each tier. Enterprise IT group needs to identify the optimal way to configure source and destination for traffic filtering that would not require directly referencing IP addresses or IP address ranges.\n\nTask - BI enterprise application\n\nDesign a 3-tier network solution for the BI Application. Your design could include Azure ExpressRoute, VPN Gateways, Application Gateways, Azure Firewall, and Azure Load Balancers. Your networking components should be grouped into virtual networks and network security groups should be considered. Be prepared to explain why you chose each component of the solution.\nBased on your architect solution from the compute case study how would this impact the network design? Would you need any additional networking resources to secure access to the modernized application? Would you no longer need some of the recommended solutions implemented in your original network design?\nBased on your storage (relational) case study how would you update the network design to secure access to the storage account and ensure only select users have access to the storage account?\nBased on the modernizing of the SQL backend how do you plan to enable pragmatic access to the data base so that the front end has no hard coded secrets in its code base?\n\nHow are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?"
   },
   {
-    "objectID": "topics/defense-in-depth-matching.html",
-    "href": "topics/defense-in-depth-matching.html",
-    "title": "Defense in Depth (Matching)",
+    "objectID": "topics/azure-load-balancer.html",
+    "href": "topics/azure-load-balancer.html",
+    "title": "Azure Load Balancer",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
-  },
-  {
-    "objectID": "topics/azure-private-link.html",
-    "href": "topics/azure-private-link.html",
-    "title": "Azure Private Link",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Private Link\nAzure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.\n\n\n\nAzure Private Link.\n\n\nRecommend private link or private endpoints when:\n\nYou need private connectivity to services on Azure.\nYou need integration with on-premises and peered networks.\nYou need traffic to remain on Microsoft network, with no public Internet access."
-  },
-  {
-    "objectID": "topics/azure-network-security-groups.html",
-    "href": "topics/azure-network-security-groups.html",
-    "title": "Azure Network Security Groups (NSG)",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Network Security Groups (NSG)\n\nYou can filter network traffic to and from Azure resources in an Azure virtual network with a Network Security Group.\nA Network Security Group (NSG) contains a list of Access Control List (ACL) rules that allow or deny network traffic to subnets, NICs, or both.\nNSGs contain two sets of rules: inbound and outbound. The priority for a rule must be unique within each set."
-  },
-  {
-    "objectID": "topics/azure-bastion.html",
-    "href": "topics/azure-bastion.html",
-    "title": "Azure Bastion",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Bastion\nThe Azure Bastion service is a fully platform-managed PaaS service, which provides secure and seamless RDP/SSH connectivity to your virtual machine directly in the Azure portal over TLS.\n\n\n\nAzure Bastion.\n\n\nRecommended Azure Bastion when you need to:\n\nSecure remote connections from the Azure portal to Azure VMs.\nEliminate exposing RDP and SSH public IP addresses of your Azure VMs.\nAccess VMs across multiple, peered networks."
-  },
-  {
-    "objectID": "topics/gather-network-requirements.html",
-    "href": "topics/gather-network-requirements.html",
-    "title": "Gather Network Requirements",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
-  },
-  {
-    "objectID": "topics/azure-web-application-firewall.html",
-    "href": "topics/azure-web-application-firewall.html",
-    "title": "Azure Web Application Firewall (WAF)",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Web Application Firewall (WAF)\nAzure Web Application Firewall (WAF) provides centralized protection to your web applications from common web exploits and vulnerabilities such as SQL injection, and cross-site scripting. Azure WAF provides out-of-the-box protection from OWASP top 10 vulnerabilities via managed rules.\n\n\n\nAzure Web Application Firewall (WAF).\n\n\nWhen to use Azure Web Application Firewall (WAF):\n\nTo prevent attacks in application code.\nCentrally manage security for applications.\nDeploy WAF with Azure Application Gateway, Azure Front Door, and Azure Content Delivery Network (CDN)."
-  },
-  {
-    "objectID": "topics/azure-distributed-denial-of-service-protection-standard.html",
-    "href": "topics/azure-distributed-denial-of-service-protection-standard.html",
-    "title": "Azure Distributed Denial of Service (DDoS) Protection Standard",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Distributed Denial of Service (DDoS) Protection Standard\nAzure DDoS Protection Standard provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.\n\n\n\nAzure Distributed Denial of Service (DDoS) Protection Standard.\n\n\nUse DDoS Protection Standard:\n\nAlways-on traffic monitoring.\nAdaptive tuning.\nMulti-layered protection.\nMitigation scale.\nAttack analytics and metrics.\nAttack alerting.\nDDoS rapid response."
-  },
-  {
-    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
-    "title": "Global Transit with Azure Virtual WAN",
-    "section": "",
-    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
+    "text": "Source: Network Infrastructure\n\nAzure Load Balancer\nHigh-Performance, Low-Latency Load Balancing for all UDP and TCP protocols.\n\n\n\nAzure Load Balancer.\n\n\n\nLayer 4 Load-Balancing for all UDP and TCP protocols.\nManages inbound and outbound connections.\nProvides public and internal load-balanced endpoints.\nUses rules to map inbound connections to backend destinations.\nHealth probes manage service availability."
   },
   {
     "objectID": "topics/azure-front-door-service.html",
@@ -133,11 +84,67 @@
     "text": "Source: Network Infrastructure\n\nAzure Front Door Service\nAzure Front Door Service enables you to define, manage, and monitor the global routing for your web traffic by optimizing for best performance and instant global failover for high availability.\n\n\n\nAzure Front Door Service.\n\n\nChoose Azure Front Door when:\n\nYou need to ensure that requests are sent to the lowest latency backends (low latency).\nYou have primary and secondary backends (priority).\nYou want to distribute traffic using weight coefficients (weighted).\nYou want to ensure requests from the same end user get sent to the same backend (affinity).\nYour traffic is HTTP(s) based and you need WAF and/or CDN integration."
   },
   {
-    "objectID": "topics/azure-load-balancer.html",
-    "href": "topics/azure-load-balancer.html",
-    "title": "Azure Load Balancer",
+    "objectID": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "href": "topics/global-transit-network-with-azure-virtual-wan.html",
+    "title": "Global Transit with Azure Virtual WAN",
     "section": "",
-    "text": "Source: Network Infrastructure\n\nAzure Load Balancer\nHigh-Performance, Low-Latency Load Balancing for all UDP and TCP protocols.\n\n\n\nAzure Load Balancer.\n\n\n\nLayer 4 Load-Balancing for all UDP and TCP protocols.\nManages inbound and outbound connections.\nProvides public and internal load-balanced endpoints.\nUses rules to map inbound connections to backend destinations.\nHealth probes manage service availability."
+    "text": "Source: Network Infrastructure\n\nGlobal Transit with Azure Virtual WAN\nGlobal transit network architecture is being adopted by enterprises to consolidate, connect, and control the cloud-centric modern, global enterprise IT footprint.\n\n\n\nGlobal Transit with Azure Virtual WAN.\n\n\nAzure Virtual WAN supports the following global transit connectivity paths:\n\nBranch-to-VNet (a).\nBranch-to-Branch (b).\n\nExpressRoute Global Reach and Virtual WAN.\n\nRemote User-to-VNet (c).\nRemote User-to-Branch (d).\nVNet-to-VNet (e).\nBranch-to-Hub-Hub-to-Branch (f).\nBranch-to-Hub-Hub-to-VNet (g).\nVNet-to-Hub-Hub-to-VNet (h)."
+  },
+  {
+    "objectID": "topics/azure-distributed-denial-of-service-protection-standard.html",
+    "href": "topics/azure-distributed-denial-of-service-protection-standard.html",
+    "title": "Azure Distributed Denial of Service (DDoS) Protection Standard",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Distributed Denial of Service (DDoS) Protection Standard\nAzure DDoS Protection Standard provides counter-measurements against the most sophisticated DDoS threats. The service provides enhanced DDoS mitigation capabilities for your application and resources deployed in your virtual networks.\n\n\n\nAzure Distributed Denial of Service (DDoS) Protection Standard.\n\n\nUse DDoS Protection Standard:\n\nAlways-on traffic monitoring.\nAdaptive tuning.\nMulti-layered protection.\nMitigation scale.\nAttack analytics and metrics.\nAttack alerting.\nDDoS rapid response."
+  },
+  {
+    "objectID": "topics/azure-web-application-firewall.html",
+    "href": "topics/azure-web-application-firewall.html",
+    "title": "Azure Web Application Firewall (WAF)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Web Application Firewall (WAF)\nAzure Web Application Firewall (WAF) provides centralized protection to your web applications from common web exploits and vulnerabilities such as SQL injection, and cross-site scripting. Azure WAF provides out-of-the-box protection from OWASP top 10 vulnerabilities via managed rules.\n\n\n\nAzure Web Application Firewall (WAF).\n\n\nWhen to use Azure Web Application Firewall (WAF):\n\nTo prevent attacks in application code.\nCentrally manage security for applications.\nDeploy WAF with Azure Application Gateway, Azure Front Door, and Azure Content Delivery Network (CDN)."
+  },
+  {
+    "objectID": "topics/gather-network-requirements.html",
+    "href": "topics/gather-network-requirements.html",
+    "title": "Gather Network Requirements",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nGather network Requirements\nPlan Virtual Networks and Subnets - Design Considerations.\n\n\n\nNetwork Requirements.\n\n\n\nNaming.\nRegions.\nSubscriptions.\nSegmentations.\nSecurity.\nConnectivity.\nPermissions.\nPolicy."
+  },
+  {
+    "objectID": "topics/azure-bastion.html",
+    "href": "topics/azure-bastion.html",
+    "title": "Azure Bastion",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Bastion\nThe Azure Bastion service is a fully platform-managed PaaS service, which provides secure and seamless RDP/SSH connectivity to your virtual machine directly in the Azure portal over TLS.\n\n\n\nAzure Bastion.\n\n\nRecommended Azure Bastion when you need to:\n\nSecure remote connections from the Azure portal to Azure VMs.\nEliminate exposing RDP and SSH public IP addresses of your Azure VMs.\nAccess VMs across multiple, peered networks."
+  },
+  {
+    "objectID": "topics/azure-network-security-groups.html",
+    "href": "topics/azure-network-security-groups.html",
+    "title": "Azure Network Security Groups (NSG)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Network Security Groups (NSG)\n\nYou can filter network traffic to and from Azure resources in an Azure virtual network with a Network Security Group.\nA Network Security Group (NSG) contains a list of Access Control List (ACL) rules that allow or deny network traffic to subnets, NICs, or both.\nNSGs contain two sets of rules: inbound and outbound. The priority for a rule must be unique within each set."
+  },
+  {
+    "objectID": "topics/azure-private-link.html",
+    "href": "topics/azure-private-link.html",
+    "title": "Azure Private Link",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Private Link\nAzure Private link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Private Link is used to access PaaS services such as Azure Storage, Azure SQL, App Services and more as illustrated below.\n\n\n\nAzure Private Link.\n\n\nRecommend private link or private endpoints when:\n\nYou need private connectivity to services on Azure.\nYou need integration with on-premises and peered networks.\nYou need traffic to remain on Microsoft network, with no public Internet access."
+  },
+  {
+    "objectID": "topics/defense-in-depth-matching.html",
+    "href": "topics/defense-in-depth-matching.html",
+    "title": "Defense in Depth (Matching)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nDefense in Depth (Matching)\n\n\n\nDefense in Depth (Matching).\n\n\n\nAzure Information Protection.\nDDoS Azure Firewall.\nConditional Access.\nNetwork Security Groups.\nMicrosoft Defender for Cloud SQL.\nMicrosoft Defender for Cloud Storage.\nNetwork Micro-segmentation.\nHost Security.\nPrivileged Security Groups.\nContainer Security."
+  },
+  {
+    "objectID": "topics/azure-content-delivery-network.html",
+    "href": "topics/azure-content-delivery-network.html",
+    "title": "Azure Content Delivery Network (CDN)",
+    "section": "",
+    "text": "Source: Network Infrastructure\n\nAzure Content Delivery Network (CDN)\nAzure Content Delivery Network (CDN) offers developers a global solution for rapidly delivering high-bandwidth content to users by caching their content at strategically placed physical nodes across the world.\n\n\n\nAzure Content Delivery Network (CDN).\n\n\nWhen to leverage a CDN:\n\nYou want point-of-presence locations that are close to large clusters of users.\nYou want to reduce latency - both the transmission delay and the number of router hops.\nYou want custom domains, file compression, caching, and geo-filtering."
   },
   {
     "objectID": "topics/azure-expressroute-and-expressroute-direct-connection.html",
