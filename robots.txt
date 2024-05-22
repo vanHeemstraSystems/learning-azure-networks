@@ -1,1 +1,1 @@
-Sitemap: https://github.com/vanHeemstraSystems/learning-azure-networks/sitemap.xml
+Sitemap: https://vanHeemstraSystems.github.io/learning-azure-networks/sitemap.xml
